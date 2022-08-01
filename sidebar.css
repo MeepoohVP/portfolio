@@ -8,16 +8,16 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 button{
-    position: absolute;
+    position: fixed;
     z-index: 3;
 }
 .header{
     width: 35%;
-    height: 100%;
+    height: 200%;
 }
 .bar{
     left: -35%;
-    position: absolute;
+    position: fixed;
     width: 35%;
     height: 100%;
     background: rgba(215, 168, 110, 0.85);
