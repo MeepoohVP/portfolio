@@ -14,7 +14,11 @@ html{
     font-family: 'Oswald', sans-serif;
 
 }
-
+/*@keyframes textclip {
+  to {
+    background-position: -200% center;
+  }
+}*/
 img{
   margin-top: 5px;
   width: 40px;
@@ -101,16 +105,16 @@ img{
     position: relative;
     -webkit-box-reflect: below -315px linear-gradient(transparent, rgba(0,0,0,.2));
     font-size: 30px;   
-  }
 
+  }
 
 
   @keyframes waviy {
     0%,40%,100% {
-      transform: translateY(0)
+      transform: translateY(0);
     }
     20% {
-      transform: translateY(-20px)
+      transform: translateY(-20px);
     }
   }
 
