@@ -68,7 +68,7 @@ changeText3 = () => {
     document.getElementById("next").innerHTML = '<button class="next" onclick ="changeText2();rev3();" style="background: #fff;width: 110px;"><< Previous</button>&nbsp;&nbsp;<button class="next" onclick = "changeText4();dot4();">Next >></button>'
 }
 changeText4 = () => {
-    document.getElementById("text").innerHTML = "<span style='color: #ffb6a1;'>ศึกษาที่</span> โรงเรียนบางปะกอกวิทยาคม";
+    document.getElementById("text").innerHTML = "<span style='color: #ffb6a1;'>ศึกษาที่</span><br>โรงเรียนบางปะกอกวิทยาคม";
     document.getElementById("next").innerHTML = '<button class="next" onclick ="changeText3();rev2();" style="background: #fff;width: 110px;"><< Previous</button>&nbsp;&nbsp;<button class="next" onclick = "changeText5();dot5()">Next >></button>'
 }
 
