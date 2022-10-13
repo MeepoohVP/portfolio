@@ -7,7 +7,7 @@
 }
 
 
-button{
+.header button{
     position: fixed;
     z-index: 3;
 }
@@ -21,13 +21,18 @@ button{
     position: fixed;
     width: 35%;
     height: 100%;
-    background: rgba(215, 168, 110, 0.85);
+    background: #425a7e;
     transition: .3s;
     z-index: 2;
 }
 .header.active .bar{
    left: 0;
 }
+.bi-list{
+    font-size: 40px;
+    color: #ced6e3;
+}
+
 .t1{
     margin-top: 80px;
     font-size: 20px;
@@ -40,5 +45,5 @@ button{
 }
 .linkbar{
     text-decoration: none;
-    color: white;
+    color: #ced6e3;
 }
