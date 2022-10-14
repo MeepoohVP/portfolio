@@ -52,7 +52,7 @@ rev6 = () => {
 }
 
 changeText = () => {
-    document.getElementById("text").innerHTML = "<span style='color: #ffb6a1;'>ชื่อ</span> กิตติกร วรประทีป";
+    document.getElementById("text").innerHTML = "<span style='color: #ffb6a1;' onchange = 'changeText1()'>ชื่อ</span> กิตติกร วรประทีป";
     document.getElementById("next").innerHTML = '<button class="next" onclick = "changeText1();dot1();">Next >></button>'
 }
 changeText1 = () => {
@@ -73,7 +73,7 @@ changeText4 = () => {
 }
 
 changeText5 = () => {
-    document.getElementById("text").innerHTML = "<span style='color: #ffb6a1;'>งานอดิเรก</span> Coding";
+    document.getElementById("text").innerHTML = "<span style='color: #ffb6a1;'>งานอดิเรก</span> Coding, เลี้ยงแมว";
     document.getElementById("next").innerHTML = '<button class="next" onclick ="changeText4();rev1();" style="background: #fff;width: 110px;"><< Previous</button>&nbsp;&nbsp;<button class="next" onclick = "changeText6();dot6()">Next >></button>'
 }
 changeText6 = () => {
@@ -82,3 +82,4 @@ changeText6 = () => {
         + "<img src = 'pyicon.png'>" + "<img src = 'c-logo.png'>" + "<img src = 'git.png'></div>";
     document.getElementById("next").innerHTML = '<button class="next" onclick ="changeText5();rev6();" style="background: #fff;width: 110px;"><< Previous</button>'
 }
+
