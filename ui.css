@@ -124,7 +124,7 @@ html{
 .skill{
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 200%;
   top: 200%;
   background: #263348;
   display: inline-block;
@@ -133,7 +133,7 @@ html{
   position: absolute;
   width: 100%;
   height: 100%;
-  top: 300%;
+  top: 400%;
   background: #2a3950;
   display: inline-block;
 }
@@ -144,7 +144,7 @@ html{
   height: 300px;
   top: 50%;
   left: 50%;
-  margin-top: -150px;
+  margin-top: -300px;
   margin-left: -50%;
   position: absolute;
   font-size: 28px;   
@@ -152,11 +152,15 @@ html{
 .waviy span {
   position: relative;
   display: inline-block;
-  color: #eaebee;
+  color: #ff9678;
   text-transform: uppercase;
-  animation: waviy 1s;
-  animation-delay: calc(.1s * var(--i));
   
+}
+.ready{
+  margin-top: 40px;
+}
+.bi-caret-down-fill{
+  font-size: 30px;
 }
 .abt{
   font-size: 40px;
@@ -182,16 +186,6 @@ html{
 }
 
 
-
-
-  @keyframes waviy {
-    0%,40%,100% {
-      transform: translateY(0);
-    }
-    20% {
-      transform: translateY(-15px);
-    }
-  }
 .gallery{
   background: none;
   margin-top: 16px;
@@ -202,7 +196,7 @@ html{
   margin-right: auto;
   font-size: 20px;
 }
-.gallery > img{
+.gallery > a > img{
   margin-top: 5px;
   width: 95%;
   height: auto;

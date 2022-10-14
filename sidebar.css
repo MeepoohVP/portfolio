@@ -13,13 +13,13 @@
 }
 .header{
     font-family: 'Prompt', sans-serif;
-    width: 35%;
+    width: 37%;
     height: 200%;
 }
 .bar{
-    left: -35%;
+    left: -37%;
     position: fixed;
-    width: 35%;
+    width: 37%;
     height: 100%;
     background: #425a7e;
     transition: .3s;
@@ -35,13 +35,18 @@
 
 .t1{
     margin-top: 80px;
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 20px;
 }
+.udl{
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
 .t2, .t3, .t4{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 50px;
     margin-left: 20px;
+
 }
 .linkbar{
     text-decoration: none;
