@@ -52,3 +52,33 @@
     text-decoration: none;
     color: #ced6e3;
 }
+@media screen and (min-width: 1800px){
+    .bi-list{
+        font-size: 80px;
+    }
+    .t1 ,.t2, .t3, .t4{
+        font-size: 36px;
+        margin-top: 80px;
+    }
+    .t1{
+        margin-top: 140px;
+    }
+    .header{
+        width: 25%;
+    }
+    .bar{
+        left: -25%;
+        
+        width: 25%;
+    }
+}
+@media screen and (min-width: 800px) {
+    .header{
+        width: 16%;
+    }
+    .bar{
+        left: -16%;
+        
+        width: 16%;
+    }
+}
